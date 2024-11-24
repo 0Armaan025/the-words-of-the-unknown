@@ -1,0 +1,42 @@
+/* Tailwind classes are included inline within the JSX. Below are some potential tweaks: */
+
+.say-page {
+  margin-top: 4rem;
+  height: 80vh;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
+.image-upload input[type="file"] {
+  display: block;
+  margin: 0 auto;
+
+  width: 100%;
+}
+
+.emoji-grid button {
+  transition: transform 0.2s;
+}
+
+.emoji-grid button:hover {
+  transform: scale(1.2);
+}
+
+.preview {
+  background-color: #fff;
+  border: 1px solid #000000;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.say-button button {
+  background-color: #202020;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.say-button button:hover {
+  background-color: #050505;
+}
